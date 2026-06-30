@@ -105,7 +105,7 @@ specific structure — see the Discussion section below.
 
 ## Repository Structure
 
-\```
+\````
 finbench-risk-prediction/
 ├── notebooks/
 │   └── finbench_model_comparison.ipynb   # full end-to-end notebook (Colab-friendly)
@@ -118,7 +118,7 @@ finbench-risk-prediction/
 ├── report/                  # original course report (PDF)
 ├── requirements.txt
 └── README.md
-\```
+\````
 
 ## Reproducing
 

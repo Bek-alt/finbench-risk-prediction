@@ -105,7 +105,7 @@ specific structure — see the Discussion section below.
 
 ## Repository Structure
 
-\````
+```
 finbench-risk-prediction/
 ├── notebooks/
 │   └── finbench_model_comparison.ipynb   # full end-to-end notebook (Colab-friendly)
@@ -118,23 +118,23 @@ finbench-risk-prediction/
 ├── report/                  # original course report (PDF)
 ├── requirements.txt
 └── README.md
-\````
+```
 
 ## Reproducing
 
-\```bash
+```bash
 git clone https://github.com/Bek-alt/finbench-risk-prediction.git
 cd finbench-risk-prediction
 pip install -r requirements.txt
-\```
+```
 
 Either run the notebook (`notebooks/finbench_model_comparison.ipynb`, works well in Google
 Colab) or use the CLI script to run both tasks back-to-back and save results automatically:
 
-\```bash
+```bash
 cd src
 python run_experiment.py --dataset cd2 ld2
-\```
+```
 
 This writes `results/<dataset>/model_performance.csv` and `.png` for each task.
 
